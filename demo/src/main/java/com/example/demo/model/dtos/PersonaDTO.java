@@ -16,4 +16,5 @@ public class PersonaDTO {
     private Integer idPersona;
     private String nombrePersona;
     private String apellidoPersona;
+    private Long numeroIdentificacion;
 }

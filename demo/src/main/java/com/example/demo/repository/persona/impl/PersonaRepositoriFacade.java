@@ -23,13 +23,22 @@ public class PersonaRepositoriFacade implements IPersonaRepositoriFacade {
     public Optional<List<Persona>> consultAllPerson() throws WebClientException {
         try {
             List<Persona> personas = personaRepositori.findAll();
-            if (personas.size()>0){
+            if (personas.size() > 0) {
                 return Optional.of(personas);
-            }else {
+            } else {
                 throw new WebClientException("1000", "no se encontraron registros");
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new WebClientException("1000", e.getMessage());
         }
+    }
+
+    @Override
+    public Optional<Persona> searchNumberIden(Long numeroIdentificacion) {
+        Optional<Persona> numberIden = personaRepositori.searchNumberIden(numeroIdentificacion);
+        if (!numberIden.isPresent()) {
+            return Optional.empty();
+        }
+        return Optional.of(numberIden.get());
     }
 }

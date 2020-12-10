@@ -8,4 +8,6 @@ import java.util.Optional;
 
 public interface IDemoServices {
     Optional<List<PersonaDTO>> consult() throws WebClientException;
+
+    Optional<PersonaDTO> createPerson(PersonaDTO persona);
 }

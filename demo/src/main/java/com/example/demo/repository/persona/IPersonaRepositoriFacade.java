@@ -8,4 +8,6 @@ import java.util.Optional;
 
 public interface IPersonaRepositoriFacade {
     Optional<List<Persona>> consultAllPerson() throws WebClientException;
+
+    Optional<Persona> searchNumberIden(Long numeroIdentificacion);
 }

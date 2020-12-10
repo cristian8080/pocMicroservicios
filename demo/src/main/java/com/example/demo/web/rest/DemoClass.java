@@ -21,20 +21,20 @@ public class DemoClass {
     private IDemoServices demoServices;
 
     @GetMapping("consultar")
-    public ResponseEntity<?> consultar(HttpServletRequest request){
+    public ResponseEntity<?> consultar(HttpServletRequest request) {
         ResponseBuilder response = ResponseBuilder.newBuilder();
         try {
             Optional<List<PersonaDTO>> personaDTOS = demoServices.consult();
-            if (personaDTOS.isPresent()){
-                response.withStatus( HttpStatus.OK)
+            if (personaDTOS.isPresent()) {
+                response.withStatus(HttpStatus.OK)
                         .withBusinessStatus("200")
                         .withResponse(personaDTOS.get());
             }
-        }catch (WebClientException e){
+        } catch (WebClientException e) {
             response.withStatus(HttpStatus.BAD_REQUEST)
                     .withBusinessStatus(e.getCode())
                     .withMessage(e.getMessage());
-        }finally {
+        } finally {
             return response
                     .withPath(request.getRequestURI())
                     .buildResponse();
@@ -43,17 +43,35 @@ public class DemoClass {
     }
 
     @PostMapping("insetar")
-    public ResponseEntity<?> insertar(){
-        return new ResponseEntity<String>(HttpStatus.OK);
+    public ResponseEntity<?> insertar(@RequestBody PersonaDTO persona, HttpServletRequest request) {
+        ResponseBuilder response = ResponseBuilder.newBuilder();
+        try {
+            Optional<PersonaDTO> createPerson = demoServices.createPerson(persona);
+            response.withStatus(HttpStatus.OK)
+                    .withBusinessStatus("200")
+                    .withResponse(createPerson.get());
+
+        } catch (WebClientException e) {
+            response.withStatus(HttpStatus.BAD_REQUEST)
+                    .withBusinessStatus(e.getCode())
+                    .withMessage(e.getMessage());
+        } catch (Exception e) {
+            response.withStatus(HttpStatus.BAD_REQUEST)
+                    .withMessage(e.getMessage());
+        } finally {
+            return response
+                    .withPath(request.getRequestURI())
+                    .buildResponse();
+        }
     }
 
     @PutMapping("actualizar")
-    public ResponseEntity<?> actualizar(){
+    public ResponseEntity<?> actualizar() {
         return new ResponseEntity<String>(HttpStatus.OK);
     }
 
     @PatchMapping("actualizar")
-    public ResponseEntity<?> actualizardos(){
+    public ResponseEntity<?> actualizardos() {
         return new ResponseEntity<String>(HttpStatus.OK);
     }
 }
