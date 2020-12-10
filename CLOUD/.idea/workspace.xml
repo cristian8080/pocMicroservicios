@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3fbbab4-8e7d-4348-a48d-57ec1c22cbea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/CustomWorkItem-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/CustomWorkItem-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/classes/co/com/soaint/tramitesinternos/services/ServiceCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/classes/co/com/soaint/tramitesinternos/services/ServiceCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../BPM/Process/CustomWorkItem/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-CORE/common-components/common-components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../API-CORE/common-components/common-components.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API-CORE/srv-consult-approving-users/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../API-CORE/srv-consult-approving-users/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-proxy-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-proxy-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/commons/constant/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/commons/constant/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/commons/dto/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/commons/dto/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/controller/AutenticationApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/controller/AutenticationApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/services/impl/ServicesAutentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../srv-api-autentication/src/main/java/co/com/soaint/tramitesinternos/services/impl/ServicesAutentication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YPMCXcZcHGAU6tAUVvuW3ETcVe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Whole project">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Whole project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.soaint.tramitesInternos.springcloud.adminserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.soaint.tramitesInternos.springcloud.adminserver.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-discovery-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.soaint.tramitesInternos.springcloud.eurekadiscoveryserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.soaint.tramitesInternos.springcloud.eurekadiscoveryserver.EurekaDiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulProxyServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuul-proxy-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.soaint.tramitesInternos.springcloud.zuulproxyserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.soaint.tramitesInternos.springcloud.zuulproxyserver.ZuulProxyServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuulProxyServerApplication" />
+        <item itemvalue="Spring Boot.EurekaDiscoveryServerApplication" />
+        <item itemvalue="Spring Boot.AdminServerApplication" />
+        <item itemvalue="JUnit.Whole project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3fbbab4-8e7d-4348-a48d-57ec1c22cbea" name="Default Changelist" comment="" />
+      <created>1582839648205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582839648205</updated>
+      <workItem from="1582839649738" duration="4751000" />
+      <workItem from="1582895701059" duration="2403000" />
+      <workItem from="1583438107265" duration="1101000" />
+      <workItem from="1585176089416" duration="1507000" />
+      <workItem from="1585181587482" duration="1224000" />
+      <workItem from="1585228223272" duration="3279000" />
+      <workItem from="1585314221904" duration="3126000" />
+      <workItem from="1585573346063" duration="2096000" />
+      <workItem from="1585697434236" duration="589000" />
+      <workItem from="1587078476292" duration="3417000" />
+      <workItem from="1587650337954" duration="1817000" />
+      <workItem from="1587665570947" duration="1416000" />
+      <workItem from="1587736059257" duration="1577000" />
+      <workItem from="1587766079768" duration="633000" />
+      <workItem from="1587838450875" duration="1782000" />
+      <workItem from="1587993297243" duration="12388000" />
+      <workItem from="1588343849031" duration="7706000" />
+      <workItem from="1589982536011" duration="1219000" />
+      <workItem from="1591031130093" duration="1693000" />
+      <workItem from="1607347618233" duration="8227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1036" height="341" key="GridCell.Tab.0.bottom" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.0.center" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.0.left" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.0.right" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.1.bottom" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.1.center" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.1.left" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+    <state width="1036" height="341" key="GridCell.Tab.1.right" timestamp="1607375047409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1036" height="341" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607375047409" />
+  </component>
+</project>
